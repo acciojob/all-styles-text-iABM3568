@@ -1,2 +1,43 @@
 
 /* Your CSS Code here. */
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background-color: #f5f5f5;
+        }
+
+        /* 
+        MAIN CONTAINER STYLING
+        
+        */
+        .main {
+            width: 200px;                    /* 1. Fixed width of 200 pixels */
+            background-color: purple;        /* 2. Purple background */
+            border-left-color: green;        /* 3. Green left border color */
+            border-left-width: 5px;          /* 4. 5 pixels thick left border */
+            border-left-style: solid;        /* Border must be solid to show */
+            padding: 10px;                   /* 5. 10px padding on all sides */
+        }
+
+        /* 
+        HEADING STYLING
+        
+        */
+        .heading {
+            font-size: 20px;                 /* 1. Font size 20 pixels */
+            color: white;                    /* 2. White text color */
+            text-decoration: underline;      /* 3. Underline text */
+            margin: 0;                       /* Remove default margin */
+        }
+
+         
+        #heading {
+        
+        }
